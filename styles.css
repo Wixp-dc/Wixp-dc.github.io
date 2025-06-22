@@ -1,0 +1,129 @@
+#btn {
+  color: #FF02F2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 12px 30px;
+  border: 3px solid #FF9FF9;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    0 0 8px #FF02F2,
+    0 0 20px #d94aff,
+    0 0 30px #6a00ff;
+  transition: 
+    background 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; /* make sure its on top */
+}
+
+#btn:hover {
+  background: linear-gradient(135deg, #d94aff, #9f00ff);
+  box-shadow:
+    0 0 15px #ff33ff,
+    0 0 30px #b200ff,
+    0 0 45px #6a00ff;
+  transform: translateX(-50%) scale(1.05);
+}
+
+#btn1:active {
+  transform: translateX(-50%) scale(0.95);
+  box-shadow: 0 0 10px #d94aff;
+}
+
+color: #FF02F2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 12px 30px;
+  border: 3px solid #FF9FF9;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    0 0 8px #FF02F2,
+    0 0 20px #d94aff,
+    0 0 30px #6a00ff;
+  transition: 
+    background 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; /* make sure its on top */
+}
+
+#btn1:hover {
+  background: linear-gradient(135deg, #d94aff, #9f00ff);
+  box-shadow:
+    0 0 15px #ff33ff,
+    0 0 30px #b200ff,
+    0 0 45px #6a00ff;
+  transform: translateX(-50%) scale(1.05);
+}
+
+#btn1:active {
+  transform: translateX(-50%) scale(0.95);
+  box-shadow: 0 0 10px #d94aff;
+}
+#btn1 {
+  /* base styles — same glow vibe, just smaller */
+  color: #FF02F2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem; /* ~30% smaller than 1.3rem */
+  padding: 8px 20px;
+  border: 2px solid #FF9FF9;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    0 0 6px #FF02F2,
+    0 0 15px #d94aff,
+    0 0 25px #6a00ff;
+  transition: 
+    background 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+
+  /* position above the other button */
+  position: fixed;
+  bottom: 85px; /* 30px + height of other button + spacing */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+#btn1:hover {
+  background: linear-gradient(135deg, #d94aff, #9f00ff);
+  box-shadow:
+    0 0 12px #ff33ff,
+    0 0 25px #b200ff,
+    0 0 35px #6a00ff;
+  transform: translateX(-50%) scale(1.05);
+}
+
+#btn1:active {
+  transform: translateX(-50%) scale(0.95);
+  box-shadow: 0 0 8px #d94aff;
+}
